@@ -1,0 +1,26 @@
+Last login: Mon May  6 16:04:36 on ttys000
+kuroidaiki@kuroidaikinoMacBook-Air ~ % cd git_challenge
+cd: no such file or directory: git_challenge
+kuroidaiki@kuroidaikinoMacBook-Air ~ % cd Desktop
+kuroidaiki@kuroidaikinoMacBook-Air Desktop % cd git_challenge
+kuroidaiki@kuroidaikinoMacBook-Air git_challenge % echo Helloworld >> hello_world.txt
+kuroidaiki@kuroidaikinoMacBook-Air git_challenge % git init      
+Initialized empty Git repository in /Users/kuroidaiki/Desktop/git_challenge/.git/
+kuroidaiki@kuroidaikinoMacBook-Air git_challenge % git add hello_world.txt
+kuroidaiki@kuroidaikinoMacBook-Air git_challenge % git commit -m first commit
+[main (root-commit) fcb944e] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+kuroidaiki@kuroidaikinoMacBook-Air git_challenge % git log --oneline
+fcb944e (HEAD -> main) first commit
+kuroidaiki@kuroidaikinoMacBook-Air git_challenge % echo こんにちは世界 >> hello_world.txt
+kuroidaiki@kuroidaikinoMacBook-Air git_challenge % git add hello_world.txt
+kuroidaiki@kuroidaikinoMacBook-Air git_challenge % giti commit -m 2nd commit
+zsh: command not found: giti
+kuroidaiki@kuroidaikinoMacBook-Air git_challenge % git commit -m 2nd commit
+[main bc7e16e] 2nd commit
+ 1 file changed, 1 insertion(+)
+kuroidaiki@kuroidaikinoMacBook-Air git_challenge % git log --oneline
+bc7e16e (HEAD -> main) 2nd commit
+fcb944e first commit
+kuroidaiki@kuroidaikinoMacBook-Air git_challenge %
